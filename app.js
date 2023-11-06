@@ -26,7 +26,8 @@ addBook.addEventListener('click', () => {
     dialog.showModal();
 });
 
-submitButton.addEventListener('click', () => {
+submitButton.addEventListener('click', (e) => {
+    e.preventDefault();
     let readStatus = '';
     if (formCheckbox.checked === true) {
         readStatus = 'Read';

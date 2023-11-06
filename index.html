@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Library</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>library</h1>
+        <button id="log-in">log in</button>
+    </div>
+    <div class="content">
+        <div class="content-header">
+            <button id="add-book">+ Add Book</button>
+        </div>
+        <div class="content-content">
+            <!-- <div class="book-card c1">
+                <li>"derp derp"</li>
+                <li>George RR Derp</li>
+                <li>333 pages</li>
+                <button class="read-button toggle-read">Read</button>
+                <button class="remove-book-card r1">Remove</button>
+            </div>
+            <div class="book-card c2">
+                <li>"derp derp"</li>
+                <li>George RR Derp</li>
+                <li>333 pages</li>
+                <button class="read-button toggle-read">Read</button>
+                <button class="remove-book-card r2">Remove</button>
+            </div>
+            <div class="book-card c3">
+                <li>"derp derp"</li>
+                <li>George RR Derp</li>
+                <li>333 pages</li>
+                <button class="read-button toggle-read">Read</button>
+                <button class="remove-book-card r3">Remove</button>
+            </div>
+            <div class="book-card c4">
+                <li>"derp derp"</li>
+                <li>George RR Derp</li>
+                <li>333 pages</li>
+                <button class="read-button toggle-read">Read</button>
+                <button class="remove-book-card r4">Remove</button>
+            </div>
+            <div class="book-card c5">
+                <li>"derp derp"</li>
+                <li>George RR Derp</li>
+                <li>333 pages</li>
+                <button class="read-button toggle-read">Read</button>
+                <button class="remove-book-card r5">Remove</button>
+            </div>
+ -->
+        </div>
+    </div>
+    <div class="footer">
+        Copyright &copy; 2023 stuart-spackman &nbsp;<i class="fa fa-github" style="font-size:23px"></i>
+
+    </div>
+    <dialog id="dialog">
+        <form action="#">
+
+            <h2>Add New Book</h2>
+
+            <input type="text" id="form-title" placeholder="title">
+            <input type="text" id="form-author" placeholder="author">
+            <input type="number" id="form-pages" step="1" min="0" placeholder="pages">
+            <div>
+                <label for="read-it">Have you read it?</label>
+                <input type="checkbox" id="read-it" name="read-it">
+            </div>
+            <button id="submit-button">Submit</button>
+        </form>
+    </dialog>
+</body>
+
+</html>
